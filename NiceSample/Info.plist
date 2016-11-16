@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.siot.WebView</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>iamporttest</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+        <string>kftc-bankpay</string> <!-- 계좌이체 -->
+        <string>ispmobile</string> <!-- ISP모바일 -->
+        <string>itms-apps</string> <!-- 앱스토어 -->
+        <string>hdcardappcardansimclick</string> <!-- 현대카드-앱카드 -->
+        <string>smhyundaiansimclick</string> <!-- 현대카드-공인인증서 -->
+        <string>shinhan-sr-ansimclick</string> <!-- 신한카드-앱카드 -->
+        <string>smshinhanansimclick</string> <!-- 신한카드-공인인증서 -->
+        <string>kb-acp</string> <!-- 국민카드-앱카드 -->
+        <string>mpocket.online.ansimclick</string> <!-- 삼성카드-앱카드 -->
+        <string>ansimclickscard</string> <!-- 삼성카드-온라인결제 -->
+        <string>ansimclickipcollect</string> <!-- 삼성카드-온라인결제 -->
+        <string>vguardstart</string> <!-- 삼성카드-백신 -->
+        <string>samsungpay</string> <!-- 삼성카드-삼성페이 -->
+        <string>scardcertiapp</string> <!-- 삼성카드-공인인증서 -->
+        <string>lottesmartpay</string> <!-- 롯데카드-모바일결제 -->
+        <string>lotteappcard</string> <!-- 롯데카드-앱카드 -->
+        <string>cloudpay</string> <!-- 하나카드-앱카드 -->
+        <string>nhappvardansimclick</string> <!-- 농협카드-앱카드 -->
+        <string>nonghyupcardansimclick</string> <!-- 농협카드-공인인증서 -->
+        <string>citispay</string> <!-- 씨티카드-앱카드 -->
+        <string>citicardappkr</string> <!-- 씨티카드-공인인증서 -->
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>
