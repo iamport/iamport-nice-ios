@@ -118,7 +118,7 @@
                                                                         options: 0
                                                                           range: rangeOfFirstMatch
                                                                    withTemplate: @"?"];
-                
+                self.bankPayUrlString = [self.bankPayUrlString stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
                 NSLog(@"bankPayUrlString: %@",self.bankPayUrlString);
             }
             [[UIApplication sharedApplication] openURL:request.URL]; //설치 되어 있을 경우 App 호출
