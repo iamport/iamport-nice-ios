@@ -56,6 +56,7 @@
         <string>nonghyupcardansimclick</string> <!-- 농협카드-공인인증서 -->
         <string>citispay</string> <!-- 씨티카드-앱카드 -->
         <string>citicardappkr</string> <!-- 씨티카드-공인인증서 -->
+        <string>citimobileapp</string> <!-- 씨티카드-간편결제 -->
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
