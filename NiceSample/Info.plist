@@ -57,6 +57,8 @@
         <string>citispay</string> <!-- 씨티카드-앱카드 -->
         <string>citicardappkr</string> <!-- 씨티카드-공인인증서 -->
         <string>citimobileapp</string> <!-- 씨티카드-간편결제 -->
+        <string>kakaotalk</string> <!-- 카카오페이 -->
+		<string>payco</string> <!-- 페이코 -->
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
