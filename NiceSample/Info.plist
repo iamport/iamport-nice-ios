@@ -58,7 +58,10 @@
         <string>citicardappkr</string> <!-- 씨티카드-공인인증서 -->
         <string>citimobileapp</string> <!-- 씨티카드-간편결제 -->
         <string>kakaotalk</string> <!-- 카카오페이 -->
-		<string>payco</string> <!-- 페이코 -->
+        <string>payco</string> <!-- 페이코 -->
+        <string>lpayapp</string> <!-- 롯데 L페이 -->
+        <string>hanamopmoasign</string> <!-- 하나카드 공인인증앱 -->
+        <string>wooripay</string> <!-- 우리페이 -->
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
